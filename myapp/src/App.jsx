@@ -8,6 +8,10 @@ export default function App(){
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} /> 
+    <nav>
+                <Link to="/">Home</Link> 
+                <Link to="/about">About</Link>
+    </nav>
       </Routes>
         </BrowserRouter>
     );
